@@ -28,6 +28,7 @@
     "gulp-concat": "",
     "gulp-uglify": "",
     "gulp-minify-css": "",
-    "gulp-coffee": ""
+    "gulp-coffee": "",
+    "gulp-webserver": ""
   }
 }

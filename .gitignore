@@ -18,4 +18,5 @@
 /vendor/bundle
 /node_modules
 /bower_components
-
+/public/dist/*
+!/publi/dist/.keep
