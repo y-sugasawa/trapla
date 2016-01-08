@@ -1,0 +1,33 @@
+{
+  "name": "trapla",
+  "version": "0.0.1",
+  "description": "## introduction 「旅のしおり」の作成・共有を行うサービスです。",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://y-sugasawa@github.com/y-sugasawa/trapla.git"
+  },
+  "author": "y-sugasawa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/y-sugasawa/trapla/issues"
+  },
+  "dependencies": {
+    "coffee-script": "",
+    "bower": "",
+    "main-bower-files": "",
+    "gulp": "",
+    "gulp-filter": "",
+    "gulp-if": "",
+    "gulp-concat": "",
+    "gulp-uglify": "",
+    "gulp-minify-css": "",
+    "gulp-coffee": ""
+  }
+}

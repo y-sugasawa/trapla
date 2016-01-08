@@ -1,0 +1,25 @@
+{
+  "name": "trapla",
+  "description": "## introduction 「旅のしおり」の作成・共有を行うサービスです。",
+  "main": "index.js",
+  "authors": [
+    "y-sugasawa"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/y-sugasawa/trapla",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "",
+    "angular": "1.4.8",
+    "angular-route": "1.4.8",
+    "angular-material": "1.0.1"
+  }
+}
