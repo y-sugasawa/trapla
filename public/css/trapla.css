@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+.plan_heading {
+  font-size: 18px;
+}
+
+.plan_content {
+  padding-left: 5px;
+  font-size: 16px;
+}
