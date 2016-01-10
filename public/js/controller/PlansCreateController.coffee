@@ -25,7 +25,7 @@ traplaApp.controller 'PlansCreateController', ['$scope', '$location', 'Plan', ($
   self.create = () ->
     plan = new Plan self.plan
     plan.$create().then (data) ->
-      $location.path '/plans/' + data.id
+      $location.path '/plans/' + data.id + '/upd'
 
   return self
 ]
