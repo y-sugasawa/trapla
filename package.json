@@ -29,6 +29,8 @@
     "gulp-uglify": "",
     "gulp-minify-css": "",
     "gulp-coffee": "",
+    "gulp-less": "",
+    "gulp-rename": "",
     "gulp-webserver": ""
   }
 }

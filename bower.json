@@ -20,6 +20,8 @@
     "jquery": "",
     "angular": "1.4.8",
     "angular-route": "1.4.8",
-    "angular-material": "1.0.1"
+    "angular-resource": "1.4.8",
+    "material-design-lite": "",
+    "datetimepicker": "https://github.com/xdan/datetimepicker.git"
   }
 }

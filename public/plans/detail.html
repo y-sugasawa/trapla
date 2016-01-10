@@ -1,0 +1,57 @@
+<div class="mdl-grid">
+  <div class="mdl-cell--12-col mdl-cell" ng-show="planDetail.upd">
+    <div class="mdl-grid">
+      <div class="mdl-cell--4-col"></div>
+      <div class="mdl-color--green mdl-cell--4-col mdl-shadow--2dp mdl-cell">
+        <div class="mdl-cell">Updated!</div>
+      </div>
+      <div class="mdl-cell--4-col"></div>
+    </div>
+  </div>
+  <div class="mdl-color--white mdl-cell--12-col mdl-shadow--2dp mdl-cell">
+    <div class="mdl-grid">
+      <div class="mdl-cell--2-col"></div>
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label mdl-cell--8-col js-dirty">
+        <input class="mdl-textfield__input" type="text" id="name" ng-model="planDetail.plan.name">
+        <label class="mdl-textfield__label" for="name">Name</label>
+      </div>
+      <div class="mdl-cell--2-col"></div>
+    </div>
+    <div class="mdl-grid">
+      <div class="mdl-cell--2-col"></div>
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label mdl-cell--8-col js-dirty">
+        <textarea class="mdl-textfield__input" type="text" rows="2" id="overview" ng-model="planDetail.plan.overview" ng-readonly="planDetail.plan.overview"></textarea>
+        <label class="mdl-textfield__label" for="overview">Overview</label>
+      </div>
+      <div class="mdl-cell--2-col"></div>
+    </div>
+  </div>
+
+  <div class="mdl-color--white mdl-cell--12-col mdl-shadow--2dp mdl-cell" ng-repeat="detail in planDetail.plan.details" on-finish-render>
+    <div class="mdl-grid">
+      <div class="mdl-cell--2-col"></div>
+      <div class="mdl-cell--8-col">
+        <div class="mdl-grid">
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label mdl-cell--8-col">
+            <input class="mdl-textfield__input" type="text" id="started_at_{{$index}}" ng-model="detail.started_at" ng-readonly="detail.started_at">
+            <label class="mdl-textfield__label" for="started_at_{{$index}}">Datetime</label>
+          </div>
+        </div>
+        <div class="mdl-grid">
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label mdl-cell--8-col">
+            <input class="mdl-textfield__input" type="text" id="place_{{$index}}" ng-model="detail.place" ng-readonly="detail.place">
+            <label class="mdl-textfield__label" for="place_{{$index}}">Place</label>
+          </div>
+        </div>
+        <div class="mdl-grid">
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label mdl-cell--8-col">
+            <textarea class="mdl-textfield__input" type="text" rows="2" id="content_{{$index}}" ng-model="detail.content" ng-readonly="detail.content"></textarea>
+            <label class="mdl-textfield__label" for="content_{{$index}}">Content</label>
+          </div>
+        </div>
+      </div>
+      <div class="mdl-cell--2-col"></div>
+    </div>
+  </div>
+
+</div>
